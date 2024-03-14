@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    /* applies to everything */
+    text-align: center;
+}
+
+div {
+    padding: 15px;
+}
+
+body {
+    background-color: rgb(172, 201, 191);
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(92, 173, 173);
+    margin-top: 0;
+    text-align: center;
+}
+
+footer {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(92, 173, 173);
+    margin-bottom: 0px;
+}
+
+#featured-books {
+    height: 50vh;
+    background-color: blanchedalmond;
+}
+
+#new-releases {
+    height: 30vh;
+    background-color: rgb(106, 80, 80);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.release {
+    background-color: rgb(72, 72, 98);
+    border: 1px solid black;
+}
+
+.blue {
+    background-color: rgb(80, 173, 220);
+}
+
+
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+
+h3 {
+    font-weight: normal;
+}
+
+h4 {
+    font-family: "Futura";
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#hero-img {
+    height: 100%;
+}
+
+/*div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 10px;
+}
+
+#d-1 {
+    background-color: black;
+    position: static; 
+    top: 175px;  
+    left: 500px;
+}
+
+#d-3 {
+    background-color: grey;
+    position: fixed; 
+    left: 500px;
+}
+
+
+#sect1 {
+    background-color: cornflowerblue;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+}
+
+*/
